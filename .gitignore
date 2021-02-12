@@ -25,3 +25,5 @@ _ocamltest
 _ocamltestd
 _release
 manual/book
+
+.direnv/

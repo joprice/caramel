@@ -81,3 +81,7 @@ fmt:
 .PHONY: clean
 clean:
 	dune clean
+
+.PHONY: resolve
+resolve:
+	nix-shell -A resolve ./default.nix && direnv reload
